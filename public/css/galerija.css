@@ -1,0 +1,84 @@
+
+.gallery-container h2 {
+    margin-top: 2em;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #85878c;
+}
+
+
+.tz-gallery .card {
+    padding: 0;
+    margin-bottom: 30px;
+    border: none;
+}
+
+.tz-gallery img{
+    height: 10em;
+}
+
+.tz-gallery .card:hover {
+    transform: scale(1.005);
+}
+
+.tz-gallery .card:hover .card-body{
+    opacity: 100;
+}
+
+.tz-gallery .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.tz-gallery .card-body{
+    opacity: 0;
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.tz-gallery .card-body h5 {
+    /*font-size: 14px;*/
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.tz-gallery .card-body p {
+    /*font-size: 12px;*/
+    color: #7b7d7d;
+    margin: 0;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+@media (min-width: 340px) {
+    .tz-gallery img{
+        height: 12.5em;
+    }
+    .appendable img{
+        height: 12.5em;
+    }
+}
+
+@media (min-width: 400px) {
+    .tz-gallery img{
+        height: 15em;
+    }
+    .appendable img{
+        height: 15em;
+    }
+}
+
+.touch {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}

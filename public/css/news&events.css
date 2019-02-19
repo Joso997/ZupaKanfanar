@@ -1,0 +1,104 @@
+
+.media > .pull-left {
+    margin-right: 29px;
+}
+.media .dateEl {
+    display: inline-block;
+    text-align: center;
+    background: #f9f9f9;
+    padding: 18px 0 25px 0;
+    color: #173d51;
+    font-size: 16px;
+    font-weight: 700;
+    width: 113px;
+    text-transform: uppercase;
+}
+.media .dateEl em {
+    display: block;
+    color: #EDCD00;
+    font-size: 42px;
+    line-height: 1;
+    margin-bottom: 5px;
+    font-style: normal;
+}
+.media .media-heading a {
+    color: #022235;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.media .meta-data {
+    margin: 0 0 7px 0;
+}
+.media .longDate, .media .timeEl {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 700;
+    color: #636465;
+    text-transform: uppercase;
+    min-height: 16px;
+}
+.media .longDate {
+    background: transparent url(../../../spotivity/public/images/ico-calendar.png) no-repeat left top;
+    padding: 0 10px 0 24px;
+    border-right: 1px solid #eb5b4c;
+    margin-right: 3px;
+}
+#tab1.tab-pane .media .longDate {
+    border-right: none;
+}
+.blogPost--small {
+    color: #7c7b7b;
+    margin: 20px 30px 40px 0;
+}
+.blogPost--small .media > .pull-left {
+    margin-right: 25px;
+}
+.blogPost--small a {
+    color: #EDCD00;
+}
+.blogPost--small .date, .blogPost--small .dateEl2 {
+    display: block;
+    text-align: center;
+    padding: 18px 0 25px 0;
+    color: #fff;
+    background: #EDCD00;
+    width: 113px;
+}
+.blogPost--small .date span, .blogPost--small .dateEl2 span {
+    display: inline-block;
+    font-size: 42px;
+    line-height: 1;
+    letter-spacing: 0em;
+    text-indent: -0.1em;
+    color: #fff;
+    font-weight: bold;
+}
+.blogPost--small .date small, .blogPost--small .dateEl2 small {
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.blogPost--small h4 {
+    margin: 0 0 12px 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+@media (min-width: 576px) {
+    .vl {
+        border-right: 6px solid #EDCD00;
+        height: 500px;
+    }
+}
+.btn-default {
+    color: #fff;
+    font-size: 14px;
+    background-color: #EDCD00;
+    border-radius : 0px;
+}
+
+.btn-default:hover{
+    color: yellow;
+}

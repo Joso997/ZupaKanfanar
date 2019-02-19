@@ -1,0 +1,38 @@
+
+#naslovnica{
+    /*background-image: url('/slike/naslovnica.jpg');*/
+    /*background-size: cover;*/
+   /* background-image: url('https://www.24sata.hr/media/img/2a/f3/e41859b2a6bbb2394d3c.jpeg');*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efe07a+0,fefcea+15,ffffff+95 */
+    background: rgb(239,224,122); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(239,224,122,1) 0%, rgba(254,252,234,1) 15%, rgba(255,255,255,1) 95%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(239,224,122,1) 0%,rgba(254,252,234,1) 15%,rgba(255,255,255,1) 95%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(239,224,122,1) 0%,rgba(254,252,234,1) 15%,rgba(255,255,255,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe07a', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+#logo {
+    float: left;
+    margin-right: 1em;
+}
+
+#footer{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+5,fefcea+85,efe07a+100 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 5%, rgba(254,252,234,1) 85%, rgba(239,224,122,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 5%,rgba(254,252,234,1) 85%,rgba(239,224,122,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 5%,rgba(254,252,234,1) 85%,rgba(239,224,122,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#efe07a',GradientType=0 ); /* IE6-9 */
+    margin-bottom: 0;
+}
+
+#notinuse{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#efe07a+0,fefcea+10,fcfbf2+36,ffffff+95 */
+    background: rgb(239,224,122); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(239,224,122,1) 0%, rgba(254,252,234,1) 10%, rgba(252,251,242,1) 36%, rgba(255,255,255,1) 95%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(239,224,122,1) 0%,rgba(254,252,234,1) 10%,rgba(252,251,242,1) 36%,rgba(255,255,255,1) 95%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(239,224,122,1) 0%,rgba(254,252,234,1) 10%,rgba(252,251,242,1) 36%,rgba(255,255,255,1) 95%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efe07a', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+
+}

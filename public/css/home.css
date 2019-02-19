@@ -1,0 +1,47 @@
+.tab-content{
+    border: 0px;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: Calibri;
+}
+
+h2, h5 {
+    text-align: center;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    color: #58595a;
+}
+
+.card-nav > div > ul > li > a > h5{
+    color: #EDCD00;
+}
+
+#raspored{
+    height: auto;
+}
+
+@media (min-width: 400px) {
+    #logo{
+        width:25%;
+    }
+    .small_calendar p:nth-last-child(2){
+        margin: 0%;
+    }
+    .small_calendar_info{
+       display: none;
+    }
+}
+@media (max-width: 400px) {
+    #logo{
+        width:100%;
+    }
+    .info_board{
+        display: none;
+        line-height:0;
+        overflow:hidden;
+        padding:0;
+        margin:0;
+    }
+}
